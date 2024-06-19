@@ -10,6 +10,7 @@
 This Hangman game is a simple Java-based game with a graphical user interface built using Swing. The game features a start screen and a game screen, both with a full-frame background image. The game logic includes guessing letters of a hidden word, and the game tracks the number of remaining attempts. When the player runs out of attempts or guesses the word correctly, the game provides appropriate feedback.
 
 ## UML Diagram of Classes and Interfaces
+![UML Diagram](./Hangman.jpg)
 
 ## How to Use the Program
 
