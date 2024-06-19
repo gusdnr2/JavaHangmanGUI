@@ -20,7 +20,7 @@ This Hangman game is a simple Java-based game with a graphical user interface bu
 
    ```bash
    git clone https://github.com/gusdnr2/JavaHangmanGUI
-   cd hangman-game
+   cd JavaHangmanGUI
 
 2. **Compile the Java Source Files**
    ```java
