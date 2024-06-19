@@ -10,7 +10,7 @@
 This Hangman game is a simple Java-based game with a graphical user interface built using Swing. The game features a start screen and a game screen, both with a full-frame background image. The game logic includes guessing letters of a hidden word, and the game tracks the number of remaining attempts. When the player runs out of attempts or guesses the word correctly, the game provides appropriate feedback.
 
 ## UML Diagram of Classes and Interfaces
-![UML Diagram](./Hangman.jpg)
+![UML Diagram](./img/Hangman.jpg)
 
 ## How to Use the Program
 
@@ -33,24 +33,34 @@ This Hangman game is a simple Java-based game with a graphical user interface bu
 ## User's Guide
 
 1. **Start the Game**
+   
+   ![UML Diagram](./img/h1.PNG)
    - When you launch the application, the start screen will appear with a welcoming message and a "Start Game" button.
    - Click the "Start Game" button to begin the game.
+     
 
 2. **Guess the Word**
+   
+   ![UML Diagram](./img/h2.PNG)
    - Once the game starts, you will see underscores representing the letters of the hidden word.
    - Type a letter into the input field and click the "Guess" button to make a guess.
 
 3. **Check Your Progress**
+   
+   ![UML Diagram](./img/h4.PNG)
    - If your guessed letter is in the word, it will replace the corresponding underscore(s).
    - If the guessed letter is not in the word, the number of attempts left will decrease and the hangman figure will start to appear.
 
 4. **Win or Lose**
+   
+   ![UML Diagram](./img/h3.PNG)
    - You win the game if you correctly guess all the letters in the word before running out of attempts.
    - You lose the game if you run out of attempts before guessing the word.
 
 5. **Feedback and Restart**
+    
+    ![UML Diagram](./img/h5.PNG)
    - After winning or losing, the game will provide feedback and prompt you with the correct word if you lost.
-   - To play again, you will need to restart the application.
 
 ### Controls
 
